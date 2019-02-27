@@ -11,5 +11,5 @@ xhr.addEventListener("load", function() {
   p2.textContent = "はてなブログをはじめてからの日数: " + days;
   div.appendChild(p2);
 });
-xhr.open("GET", "https://pysw78m6qi.execute-api.ap-northeast-1.amazonaws.com/production");
+xhr.open("GET", "https://blogcounter.kyanny.me/");
 xhr.send()
